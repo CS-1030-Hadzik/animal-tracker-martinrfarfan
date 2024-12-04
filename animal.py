@@ -4,7 +4,7 @@ class Animal:
     """
     # Class-level attribute
     kingdom = "Animalia"
-   all_animals = []
+    all_animals = []
 
     def __init__(self, name, species):
         """

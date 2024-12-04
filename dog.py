@@ -4,12 +4,12 @@ class Dog(Animal):
     """
     Derived class representing a dog, which is a type of Animal.
     """
-     def __init__(self, name, species, breed):
+    def __init__(self, name, species, breed):
         """
         Initializes a Dog instance with name, species, and breed.
         """
         super().__init__(name, species)  # Initialize the Animal class with name and species
-        self.breed = breed
+        self.breed = breed  # Initialize breed specific to the Dog class
 
     def speak(self):
         """
@@ -17,8 +17,7 @@ class Dog(Animal):
         """
         print("The dog barks.")
 
-
-   def __str__(self):
+    def __str__(self):
         """
         String representation of the Dog object.
         """
